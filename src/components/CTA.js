@@ -5,15 +5,25 @@ export default function CTA() {
   return (
     <section className={styles.section} id="kontak">
       <div className={styles.inner}>
-        <p className={styles.sectionLabel}>Mulai Sekarang</p>
-        <h2 className={styles.sectionTitle}>
+        <p className={styles.sectionLabel} data-aos="fade-up">
+          Mulai Sekarang
+        </p>
+        <h2
+          className={styles.sectionTitle}
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
           Siap punya website yang profesional?
         </h2>
-        <p className={styles.sectionDesc}>
+        <p
+          className={styles.sectionDesc}
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
           Konsultasi gratis, tanpa komitmen. Ceritakan kebutuhan Anda dan kami
           bantu temukan solusi terbaik.
         </p>
-        <div className={styles.actions}>
+        <div className={styles.actions} data-aos="fade-up" data-aos-delay="300">
           <a href="https://wa.me/6282335486623" className={styles.btnPrimary}>
             <MessageCircle size={16} />
             Chat WhatsApp

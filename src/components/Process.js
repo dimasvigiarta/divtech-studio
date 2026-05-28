@@ -4,15 +4,21 @@ export default function Process() {
   return (
     <section className={styles.section} id="proses">
       <div className={styles.inner}>
-        <p className={styles.sectionLabel}>Proses Kerja</p>
-        <h2 className={styles.sectionTitle}>
+        <p className={styles.sectionLabel} data-aos="fade-up">
+          Proses Kerja
+        </p>
+        <h2
+          className={styles.sectionTitle}
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
           Transparan dari awal
           <br />
           hingga selesai
         </h2>
 
         <div className={styles.grid}>
-          <div className={styles.step}>
+          <div className={styles.step} data-aos="fade-up" data-aos-delay="100">
             <div className={styles.stepNum}>1</div>
             <h3>Konsultasi</h3>
             <p>
@@ -21,7 +27,7 @@ export default function Process() {
             </p>
           </div>
 
-          <div className={styles.step}>
+          <div className={styles.step} data-aos="fade-up" data-aos-delay="300">
             <div className={styles.stepNum}>2</div>
             <h3>Penawaran</h3>
             <p>
@@ -30,7 +36,7 @@ export default function Process() {
             </p>
           </div>
 
-          <div className={styles.step}>
+          <div className={styles.step} data-aos="fade-up" data-aos-delay="500">
             <div className={styles.stepNum}>3</div>
             <h3>Pengerjaan</h3>
             <p>
@@ -39,7 +45,7 @@ export default function Process() {
             </p>
           </div>
 
-          <div className={styles.step}>
+          <div className={styles.step} data-aos="fade-up" data-aos-delay="700">
             <div className={styles.stepNum}>4</div>
             <h3>Revisi</h3>
             <p>
@@ -48,7 +54,7 @@ export default function Process() {
             </p>
           </div>
 
-          <div className={styles.step}>
+          <div className={styles.step} data-aos="fade-up" data-aos-delay="900">
             <div className={styles.stepNum}>5</div>
             <h3>Launch & Support</h3>
             <p>

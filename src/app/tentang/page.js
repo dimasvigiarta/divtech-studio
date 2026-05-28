@@ -20,6 +20,7 @@ export default function TentangPage() {
       <section style={{ padding: "80px 5%", background: "#ffffff" }}>
         <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
           <p
+            data-aos="fade-up"
             style={{
               fontSize: "12px",
               fontWeight: "700",
@@ -32,6 +33,8 @@ export default function TentangPage() {
             Tentang Kami
           </p>
           <h1
+            data-aos="fade-up"
+            data-aos-delay="100"
             style={{
               fontSize: "clamp(32px, 5vw, 48px)",
               fontWeight: "700",
@@ -46,6 +49,8 @@ export default function TentangPage() {
             internet
           </h1>
           <p
+            data-aos="fade-up"
+            data-aos-delay="200"
             style={{
               fontSize: "18px",
               color: "#64748B",
@@ -64,6 +69,7 @@ export default function TentangPage() {
       <section style={{ padding: "72px 5%", background: "#F8FAFC" }}>
         <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
           <p
+            data-aos="fade-up"
             style={{
               fontSize: "12px",
               fontWeight: "700",
@@ -76,6 +82,8 @@ export default function TentangPage() {
             Nilai Kami
           </p>
           <h2
+            data-aos="fade-up"
+            data-aos-delay="100"
             style={{
               fontSize: "clamp(24px, 3.5vw, 36px)",
               fontWeight: "700",
@@ -119,6 +127,8 @@ export default function TentangPage() {
             ].map((item, i) => (
               <div
                 key={i}
+                data-aos="fade-up"
+                data-aos-delay={i * 100}
                 style={{
                   background: "#ffffff",
                   border: "1px solid #E2E8F0",
@@ -170,6 +180,7 @@ export default function TentangPage() {
       <section style={{ padding: "72px 5%", background: "#ffffff" }}>
         <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
           <p
+            data-aos="fade-up"
             style={{
               fontSize: "12px",
               fontWeight: "700",
@@ -182,6 +193,8 @@ export default function TentangPage() {
             Teknologi
           </p>
           <h2
+            data-aos="fade-up"
+            data-aos-delay="100"
             style={{
               fontSize: "clamp(24px, 3.5vw, 36px)",
               fontWeight: "700",
@@ -193,6 +206,8 @@ export default function TentangPage() {
             Stack teknologi yang kami gunakan
           </h2>
           <p
+            data-aos="fade-up"
+            data-aos-delay="200"
             style={{
               fontSize: "16px",
               color: "#64748B",
@@ -204,7 +219,11 @@ export default function TentangPage() {
             Kami menggunakan teknologi modern yang terbukti handal, cepat, dan
             SEO-friendly.
           </p>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "12px" }}>
+          <div
+            data-aos="fade-up"
+            data-aos-delay="300"
+            style={{ display: "flex", flexWrap: "wrap", gap: "12px" }}
+          >
             {[
               "Next.js",
               "Laravel",
@@ -244,6 +263,7 @@ export default function TentangPage() {
       >
         <div style={{ maxWidth: "640px", margin: "0 auto" }}>
           <h2
+            data-aos="fade-up"
             style={{
               fontSize: "clamp(24px, 3.5vw, 36px)",
               fontWeight: "700",
@@ -255,6 +275,8 @@ export default function TentangPage() {
             Siap bekerja sama dengan divtech Studio?
           </h2>
           <p
+            data-aos="fade-up"
+            data-aos-delay="100"
             style={{
               fontSize: "16px",
               color: "#64748B",
@@ -266,6 +288,8 @@ export default function TentangPage() {
             bantu temukan solusi terbaik.
           </p>
           <a
+            data-aos="fade-up"
+            data-aos-delay="200"
             href="/#kontak"
             style={{
               display: "inline-flex",

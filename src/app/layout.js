@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { localBusinessSchema } from "./schema";
 import WhatsappButton from "@/components/WhatsappButton";
+import AOSInit from "@/components/AOSInit";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -46,6 +47,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="id">
       <body className={inter.className}>
+        <AOSInit />
         {children}
         <WhatsappButton />
         <script

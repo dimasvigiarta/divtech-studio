@@ -151,18 +151,28 @@ export default function Pricing() {
   return (
     <section className={styles.section} id="harga">
       <div className={styles.inner}>
-        <p className={styles.sectionLabel}>Harga & Paket</p>
-        <h2 className={styles.sectionTitle}>
+        <p className={styles.sectionLabel} data-aos="fade-up">
+          Harga & Paket
+        </p>
+        <h2
+          className={styles.sectionTitle}
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
           Transparan, terjangkau,
           <br />
           tanpa biaya tersembunyi
         </h2>
-        <p className={styles.sectionDesc}>
+        <p
+          className={styles.sectionDesc}
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
           Pilih paket yang sesuai kebutuhan. Semua harga sudah final — tidak ada
           biaya tambahan di luar kesepakatan.
         </p>
 
-        <div className={styles.tabs}>
+        <div className={styles.tabs} data-aos="fade-up" data-aos-delay="300">
           <button
             className={`${styles.tab} ${active === "tanpaDomain" ? styles.tabActive : ""}`}
             onClick={() => setActive("tanpaDomain")}
@@ -182,6 +192,8 @@ export default function Pricing() {
             <div
               key={i}
               className={`${styles.card} ${pkg.popular ? styles.cardPopular : ""}`}
+              data-aos="fade-up"
+              data-aos-delay={i * 100}
             >
               {pkg.popular && (
                 <div className={styles.popularBadge}>Paling Populer</div>

@@ -47,7 +47,7 @@ export default function Footer() {
                 <a href="/blog">Blog</a>
               </li>
               <li>
-                <a href="#kontak">Kontak</a>
+                <a href="/kontak">Kontak</a>
               </li>
             </ul>
           </div>

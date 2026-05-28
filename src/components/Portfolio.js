@@ -5,9 +5,15 @@ export default function Portfolio() {
   return (
     <section className={styles.section} id="portofolio">
       <div className={styles.inner}>
-        <p className={styles.sectionLabel}>Portofolio</p>
+        <p className={styles.sectionLabel} data-aos="fade-up">
+          Portofolio
+        </p>
         <div className={styles.header}>
-          <h2 className={styles.sectionTitle}>
+          <h2
+            className={styles.sectionTitle}
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
             Hasil kerja yang berbicara
             <br />
             sendiri
@@ -18,7 +24,7 @@ export default function Portfolio() {
         </div>
 
         <div className={styles.grid}>
-          <div className={styles.card}>
+          <div className={styles.card} data-aos="fade-up" data-aos-delay="100">
             <div className={`${styles.thumb} ${styles.thumb1}`}>
               <Home size={48} />
             </div>
@@ -35,8 +41,8 @@ export default function Portfolio() {
             </div>
           </div>
 
-          <div className={styles.card}>
-            <div className={`${styles.thumb} ${styles.thumb2}`}>
+          <div className={styles.card} data-aos="fade-up" data-aos-delay="500">
+            <div className={`${styles.thumb} ${styles.thumb1}`}>
               <Store size={48} />
             </div>
             <div className={styles.body}>
@@ -52,8 +58,8 @@ export default function Portfolio() {
             </div>
           </div>
 
-          <div className={styles.card}>
-            <div className={`${styles.thumb} ${styles.thumb3}`}>
+          <div className={styles.card} data-aos="fade-up" data-aos-delay="900">
+            <div className={`${styles.thumb} ${styles.thumb1}`}>
               <FileText size={48} />
             </div>
             <div className={styles.body}>

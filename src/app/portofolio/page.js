@@ -77,6 +77,7 @@ export default function PortofolioPage() {
       <section style={{ padding: "80px 5%", background: "#ffffff" }}>
         <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
           <p
+            data-aos="fade-up"
             style={{
               fontSize: "12px",
               fontWeight: "700",
@@ -89,6 +90,8 @@ export default function PortofolioPage() {
             Portofolio
           </p>
           <h1
+            data-aos="fade-up"
+            data-aos-delay="100"
             style={{
               fontSize: "clamp(32px, 5vw, 48px)",
               fontWeight: "700",
@@ -102,6 +105,8 @@ export default function PortofolioPage() {
             <span style={{ color: "#2563EB" }}>berbicara sendiri</span>
           </h1>
           <p
+            data-aos="fade-up"
+            data-aos-delay="200"
             style={{
               fontSize: "18px",
               color: "#64748B",
@@ -128,12 +133,13 @@ export default function PortofolioPage() {
             {projects.map((project, i) => (
               <div
                 key={i}
+                data-aos="fade-up"
+                data-aos-delay={i * 100}
                 style={{
                   background: "#ffffff",
                   border: "1px solid #E2E8F0",
                   borderRadius: "12px",
                   overflow: "hidden",
-                  transition: "border-color 0.2s",
                 }}
               >
                 <div
@@ -257,6 +263,7 @@ export default function PortofolioPage() {
       >
         <div style={{ maxWidth: "640px", margin: "0 auto" }}>
           <h2
+            data-aos="fade-up"
             style={{
               fontSize: "clamp(24px, 3.5vw, 36px)",
               fontWeight: "700",
@@ -268,6 +275,8 @@ export default function PortofolioPage() {
             Ingin proyek Anda jadi bagian dari portofolio ini?
           </h2>
           <p
+            data-aos="fade-up"
+            data-aos-delay="100"
             style={{
               fontSize: "16px",
               color: "#64748B",
@@ -279,6 +288,8 @@ export default function PortofolioPage() {
             sekarang.
           </p>
           <a
+            data-aos="fade-up"
+            data-aos-delay="200"
             href="https://wa.me/6282335486623"
             style={{
               display: "inline-flex",

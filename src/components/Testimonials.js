@@ -45,8 +45,14 @@ export default function Testimonials() {
   return (
     <section className={styles.section}>
       <div className={styles.inner}>
-        <p className={styles.sectionLabel}>Keunggulan</p>
-        <h2 className={styles.sectionTitle}>
+        <p className={styles.sectionLabel} data-aos="fade-up">
+          Keunggulan
+        </p>
+        <h2
+          className={styles.sectionTitle}
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
           Kenapa memilih
           <br />
           divtech Studio
@@ -54,7 +60,12 @@ export default function Testimonials() {
 
         <div className={styles.grid}>
           {reasons.map((item, i) => (
-            <div key={i} className={styles.card}>
+            <div
+              key={i}
+              className={styles.card}
+              data-aos="fade-up"
+              data-aos-delay={i * 100}
+            >
               <div
                 style={{
                   width: "44px",

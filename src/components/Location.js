@@ -5,19 +5,29 @@ export default function Location() {
   return (
     <section className={styles.section}>
       <div className={styles.inner}>
-        <p className={styles.sectionLabel}>Jangkauan Layanan</p>
-        <h2 className={styles.sectionTitle}>
+        <p className={styles.sectionLabel} data-aos="fade-up">
+          Jangkauan Layanan
+        </p>
+        <h2
+          className={styles.sectionTitle}
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
           Jasa pembuatan website
           <br />
           Blora & Semarang
         </h2>
-        <p className={styles.sectionDesc}>
+        <p
+          className={styles.sectionDesc}
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
           Berbasis di Jawa Tengah, kami melayani klien dari Blora, Semarang, dan
           seluruh Indonesia secara remote.
         </p>
 
         <div className={styles.grid}>
-          <div className={styles.card}>
+          <div className={styles.card} data-aos="fade-up" data-aos-delay="100">
             <div className={styles.cardTitle}>
               <MapPin size={20} />
               Blora
@@ -54,7 +64,7 @@ export default function Location() {
             </ul>
           </div>
 
-          <div className={styles.card}>
+          <div className={styles.card} data-aos="fade-up" data-aos-delay="300">
             <div className={styles.cardTitle}>
               <MapPin size={20} />
               Semarang
@@ -91,7 +101,7 @@ export default function Location() {
             </ul>
           </div>
 
-          <div className={styles.card}>
+          <div className={styles.card} data-aos="fade-up" data-aos-delay="500">
             <div className={styles.cardTitle}>
               <Globe size={20} />
               Seluruh Indonesia

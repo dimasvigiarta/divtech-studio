@@ -5,19 +5,29 @@ export default function Services() {
   return (
     <section className={styles.section} id="layanan">
       <div className={styles.inner}>
-        <p className={styles.sectionLabel}>Layanan</p>
-        <h2 className={styles.sectionTitle}>
+        <p className={styles.sectionLabel} data-aos="fade-up">
+          Layanan
+        </p>
+        <h2
+          className={styles.sectionTitle}
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
           Solusi digital yang tepat
           <br />
           untuk kebutuhan Anda
         </h2>
-        <p className={styles.sectionDesc}>
+        <p
+          className={styles.sectionDesc}
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
           Dari website profil sederhana hingga sistem manajemen yang kompleks —
           semua dikerjakan dengan serius dan profesional.
         </p>
 
         <div className={styles.grid}>
-          <div className={styles.card}>
+          <div className={styles.card} data-aos="fade-up" data-aos-delay="100">
             <div className={styles.iconBox}>
               <Layout size={20} />
             </div>
@@ -34,7 +44,7 @@ export default function Services() {
             </div>
           </div>
 
-          <div className={styles.card}>
+          <div className={styles.card} data-aos="fade-up" data-aos-delay="300">
             <div className={styles.iconBox}>
               <Building2 size={20} />
             </div>
@@ -51,7 +61,7 @@ export default function Services() {
             </div>
           </div>
 
-          <div className={styles.card}>
+          <div className={styles.card} data-aos="fade-up" data-aos-delay="500">
             <div className={styles.iconBox}>
               <ShoppingCart size={20} />
             </div>
@@ -68,7 +78,7 @@ export default function Services() {
             </div>
           </div>
 
-          <div className={styles.card}>
+          <div className={styles.card} data-aos="fade-up" data-aos-delay="800">
             <div className={styles.iconBox}>
               <Server size={20} />
             </div>
