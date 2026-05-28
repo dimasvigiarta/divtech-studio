@@ -37,6 +37,9 @@ export const metadata = {
     icon: "/logo-D.png",
     apple: "/logo-D.png",
   },
+  verification: {
+    google: "b2YKtaNqLA9cH7-f9afRthElOAuUFGE8w25q_nXq0Ms",
+  },
 };
 
 export default function RootLayout({ children }) {
