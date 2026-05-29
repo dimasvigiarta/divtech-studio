@@ -39,7 +39,10 @@ export const metadata = {
     apple: "/logo-D.png",
   },
   verification: {
-    google: "b2YKtaNqLA9cH7-f9afRthElOAuUFGE8w25q_nXq0Ms",
+    google: [
+      "b2YKtaNqLA9cH7-f9afRthElOAuUFGE8w25q_nXq0Ms",
+      "9e6jkc8qSBoUCDf_aTmlRZ4ayQSUufvQbeGhvwdjGYg",
+    ],
   },
 };
 
