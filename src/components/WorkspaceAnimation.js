@@ -83,6 +83,18 @@ export default function WorkspaceAnimation() {
         <div className={styles.spinnerWrap}>
           <div className={styles.spinnerRing}></div>
         </div>
+
+        <div className={styles.coffeeWrap}>
+          <div className={styles.steam}>
+            <div className={styles.steamLine}></div>
+            <div className={styles.steamLine}></div>
+            <div className={styles.steamLine}></div>
+          </div>
+          <div className={styles.coffeeCup}>
+            <div className={styles.coffeeTop}></div>
+            <div className={styles.coffeeHandle}></div>
+          </div>
+        </div>
       </div>
     </div>
   );

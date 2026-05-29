@@ -1,11 +1,13 @@
 .section {
   padding: 72px 5%;
   background: #ffffff;
+  scroll-margin-top: 64px;
 }
 
 @media (max-width: 768px) {
   .section {
     padding: 48px 5%;
+    scroll-margin-top: 64px;
   }
 }
 

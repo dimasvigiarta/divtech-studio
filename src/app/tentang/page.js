@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { CheckCircle, Code, Globe, Smartphone } from "lucide-react";
+import WorkspaceAnimation from "@/components/WorkspaceAnimation";
 
 export const metadata = {
   title: "Tentang Kami - divtech Studio",
@@ -48,20 +49,31 @@ export default function TentangPage() {
             <span style={{ color: "#2563EB" }}>tampil profesional</span> di
             internet
           </h1>
-          <p
-            data-aos="fade-up"
-            data-aos-delay="200"
+          <div
             style={{
-              fontSize: "18px",
-              color: "#64748B",
-              lineHeight: "1.7",
-              maxWidth: "640px",
+              display: "grid",
+              gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
+              gap: "40px",
+              alignItems: "center",
             }}
           >
-            divtech Studio adalah studio pengembangan web freelance yang
-            berfokus pada pembuatan website dan sistem berbasis web untuk UMKM,
-            bisnis, dan instansi di Indonesia.
-          </p>
+            <p
+              data-aos="fade-up"
+              data-aos-delay="200"
+              style={{
+                fontSize: "18px",
+                color: "#64748B",
+                lineHeight: "1.7",
+              }}
+            >
+              divtech Studio adalah studio pengembangan web freelance yang
+              berfokus pada pembuatan website dan sistem berbasis web untuk
+              UMKM, bisnis, dan instansi di Indonesia.
+            </p>
+            <div data-aos="fade-up" data-aos-delay="300">
+              <WorkspaceAnimation />
+            </div>
+          </div>
         </div>
       </section>
 
