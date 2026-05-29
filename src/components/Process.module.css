@@ -6,7 +6,7 @@
 @media (max-width: 768px) {
   .section {
     padding: 48px 5%;
-    scroll-margin-top: 64px;
+    scroll-margin-top: 30px;
   }
 }
 
