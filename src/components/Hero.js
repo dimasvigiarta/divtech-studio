@@ -32,7 +32,7 @@ export default function Hero() {
 
       <div className={styles.stats} data-aos="fade-up" data-aos-delay="400">
         <div className={styles.statItem}>
-          <span className={styles.statNum}>30+</span>
+          <span className={styles.statNum}>10+</span>
           <span className={styles.statLabel}>Proyek selesai</span>
         </div>
         <div className={styles.statItem}>
@@ -40,11 +40,11 @@ export default function Hero() {
           <span className={styles.statLabel}>Klien puas</span>
         </div>
         <div className={styles.statItem}>
-          <span className={styles.statNum}>3+</span>
+          <span className={styles.statNum}>1+</span>
           <span className={styles.statLabel}>Tahun pengalaman</span>
         </div>
         <div className={styles.statItem}>
-          <span className={styles.statNum}>2 Kota</span>
+          <span className={styles.statNum}>2</span>
           <span className={styles.statLabel}>Blora & Semarang</span>
         </div>
       </div>

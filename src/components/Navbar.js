@@ -28,10 +28,13 @@ export default function Navbar() {
           <a href="/#layanan">Layanan</a>
         </li>
         <li>
-          <a href="/#harga">Harga</a>
+          <a href="/#proses">Proses</a>
         </li>
         <li>
-          <a href="/#kontak">Kontak</a>
+          <a href="/#testimoni">Keunggulan</a>
+        </li>
+        <li>
+          <a href="/#harga">Harga</a>
         </li>
         <li>
           <a
@@ -49,9 +52,14 @@ export default function Navbar() {
             Blog
           </a>
         </li>
+        <li>
+          <a href="/kontak" className={styles.navCtaMobile}>
+            Konsultasi Gratis
+          </a>
+        </li>
       </ul>
 
-      <a href="/#kontak" className={styles.navCta}>
+      <a href="/kontak" className={styles.navCta}>
         Konsultasi Gratis
       </a>
 

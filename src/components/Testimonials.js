@@ -43,7 +43,7 @@ const reasons = [
 
 export default function Testimonials() {
   return (
-    <section className={styles.section}>
+    <section className={styles.section} id="testimoni">
       <div className={styles.inner}>
         <p className={styles.sectionLabel} data-aos="fade-up">
           Keunggulan

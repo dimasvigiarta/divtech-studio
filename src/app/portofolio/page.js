@@ -17,54 +17,60 @@ const projects = [
     title: "Sistem Manajemen Kos",
     isPersonal: true,
     desc: "Aplikasi web untuk pemilik kos — kelola kamar, penghuni, pembayaran, dan laporan bulanan secara digital. Dibangun dengan Laravel & MySQL.",
-    tech: ["Laravel", "MySQL", "Bootstrap"],
+    tech: ["Laravel", "MySQL", "Tailwond CSS"],
     color: "#EFF6FF",
     textColor: "#2563EB",
-  },
-  {
-    category: "Toko Online",
-    title: "Website Toko UMKM Blora",
-    isPersonal: true,
-    desc: "Website toko online untuk UMKM lokal di Blora dengan fitur katalog produk, kontak WhatsApp terintegrasi, dan tampilan mobile-friendly.",
-    tech: ["WordPress", "WooCommerce"],
-    color: "#F0FDF4",
-    textColor: "#16A34A",
-  },
-  {
-    category: "Company Profile",
-    title: "Company Profile Instansi Semarang",
-    isPersonal: true,
-    desc: "Website profil resmi untuk instansi di Semarang dengan desain modern, SEO-ready, loading cepat, dan mudah dikelola.",
-    tech: ["Next.js", "Vercel"],
-    color: "#FFF7ED",
-    textColor: "#EA580C",
-  },
-  {
-    category: "Landing Page",
-    title: "Landing Page Produk UMKM",
-    isPersonal: true,
-    desc: "Halaman promosi produk lokal dengan desain yang dioptimasi untuk konversi. Terintegrasi dengan WhatsApp untuk pemesanan langsung.",
-    tech: ["WordPress", "Elementor"],
-    color: "#FDF4FF",
-    textColor: "#9333EA",
+    image: "/juragankos.png",
   },
   {
     category: "Sistem Web",
-    title: "Sistem Inventori Toko",
+    title: "Sistem Manajemen dan Tracking Progres Cuci Sepatu",
     isPersonal: true,
-    desc: "Sistem manajemen stok dan inventori untuk toko retail. Fitur meliputi pencatatan barang masuk/keluar, laporan stok, dan notifikasi stok menipis.",
-    tech: ["Laravel", "MySQL", "Tailwind"],
-    color: "#EFF6FF",
-    textColor: "#2563EB",
+    desc: "Aplikasi berbasis web untuk mengelola operasional jasa cuci sepatu, dilengkapi fitur tracking status cucian secara real-time oleh pelanggan dan manajemen inventaris.",
+    tech: ["Laravel", "Mysql", "Tailwind CSS"],
+    color: "#F0FDF4",
+    textColor: "#ec9121",
+    image: "/shoecare.png",
   },
   {
-    category: "Company Profile",
-    title: "Website Bisnis Kuliner",
+    category: "Web Aplikasi",
+    title: "Web Katalog Promosi dan Portofolio Sales Toyota",
     isPersonal: true,
-    desc: "Website company profile untuk bisnis kuliner lokal dengan menu digital, galeri foto, lokasi Google Maps, dan form reservasi online.",
-    tech: ["WordPress", "Elementor"],
+    desc: "Website promosi dinamis yang dilengkapi halaman admin untuk mengelola katalog unit mobil, update promo berkala, dan informasi kontak sales untuk memudahkan konversi calon pembeli.",
+    tech: ["Laravel", "MySQL", "Tailwind CSS"],
+    color: "#FEF2F2",
+    textColor: "#DC2626",
+    image: "/toyota.png",
+  },
+  {
+    category: "Web Aplikasi",
+    title: "Web Katalog Dinamis dan CMS Toko Roti & Kue",
+    isPersonal: true,
+    desc: "Website katalog responsif untuk toko roti yang dilengkapi panel admin (CMS) khusus untuk mengelola dasbor ringkasan, data produk kue, kategori menu, serta manajemen banner promosi.",
+    tech: ["Laravel", "MySQL", "Tailwind CSS"],
     color: "#FFF7ED",
-    textColor: "#EA580C",
+    textColor: "#862600",
+    image: "/bakery.png",
+  },
+  {
+    category: "Web Aplikasi",
+    title: "Sistem Informasi Manajemen dan Persewaan Kebaya",
+    isPersonal: true,
+    desc: "Website katalog dan persewaan kebaya interaktif, dilengkapi panel admin untuk manajemen stok kebaya, pelacakan pesanan, laporan keuangan, serta fitur blokir tanggal otomatis untuk mengatur jadwal sewa.",
+    tech: ["Laravel", "MySQL", "Tailwind CSS"],
+    color: "#FFF1F2",
+    textColor: "#660049",
+    image: "/kebaya.png",
+  },
+  {
+    category: "Web Aplikasi",
+    title: "Web Katalog Kuliner dan CMS Layanan Katering",
+    isPersonal: true,
+    desc: "Website katalog makanan untuk layanan katering yang dilengkapi panel admin dinamis untuk mengelola kategori paket, daftar menu hidangan, serta konfigurasi pengaturan profil usaha.",
+    tech: ["Laravel", "MySQL", "Tailwind CSS"],
+    color: "#FFFBEB",
+    textColor: "#c68c5f",
+    image: "/katering.png",
   },
 ];
 
@@ -149,9 +155,22 @@ export default function PortofolioPage() {
                     display: "flex",
                     alignItems: "center",
                     justifyContent: "center",
+                    overflow: "hidden",
                   }}
                 >
-                  <Globe size={48} color={project.textColor} />
+                  {project.image ? (
+                    <img
+                      src={project.image}
+                      alt={project.title}
+                      style={{
+                        width: "100%",
+                        height: "100%",
+                        objectFit: "cover",
+                      }}
+                    />
+                  ) : (
+                    <Globe size={48} color={project.textColor} />
+                  )}
                 </div>
                 <div style={{ padding: "24px" }}>
                   <div
