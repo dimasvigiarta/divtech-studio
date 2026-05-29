@@ -8,6 +8,7 @@ import Pricing from "@/components/Pricing";
 import Location from "@/components/Location";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
+import BeforeAfter from "@/components/BeforeAfter";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Portfolio />
       <Process />
       <Testimonials />
+      <BeforeAfter />
       <Pricing />
       <Location />
       <CTA />
