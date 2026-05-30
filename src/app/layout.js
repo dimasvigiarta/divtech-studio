@@ -3,6 +3,7 @@ import "./globals.css";
 import { localBusinessSchema } from "./schema";
 import WhatsappButton from "@/components/WhatsappButton";
 import AOSInit from "@/components/AOSInit";
+import Loading from "@/components/Loading";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -51,6 +52,7 @@ export default function RootLayout({ children }) {
     <html lang="id">
       <body className={inter.className}>
         <AOSInit />
+        <Loading />
         {children}
         <WhatsappButton />
         <script
