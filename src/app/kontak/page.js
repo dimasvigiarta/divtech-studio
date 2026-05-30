@@ -449,9 +449,15 @@ export default function KontakPage() {
                     border: "1.5px solid #E2E8F0",
                     borderRadius: "8px",
                     fontSize: "14px",
-                    color: "#0F172A",
+                    color: form.layanan ? "#0F172A" : "#94A3B8",
                     outline: "none",
                     background: "#fff",
+                    appearance: "none",
+                    WebkitAppearance: "none",
+                    backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%2364748B' stroke-width='2'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E")`,
+                    backgroundRepeat: "no-repeat",
+                    backgroundPosition: "right 14px center",
+                    cursor: "pointer",
                   }}
                 >
                   <option value="">Pilih layanan...</option>
