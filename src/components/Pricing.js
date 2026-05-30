@@ -9,7 +9,7 @@ const pricingData = {
     {
       name: "Landing Page",
       desc: "Cocok untuk promosi produk, jasa, atau event khusus.",
-      price: "Rp 300.000",
+      price: "Rp 350.000",
       note: "sekali bayar",
       popular: false,
       features: [
@@ -24,7 +24,7 @@ const pricingData = {
     {
       name: "Company Profile",
       desc: "Website resmi untuk bisnis atau instansi yang ingin tampil profesional.",
-      price: "Rp 750.000",
+      price: "Rp 800.000",
       note: "sekali bayar",
       popular: true,
       features: [
@@ -40,7 +40,7 @@ const pricingData = {
     {
       name: "Toko Online",
       desc: "Website jualan lengkap dengan katalog produk dan manajemen pesanan.",
-      price: "Rp 1.500.000",
+      price: "Rp 1.800.000",
       note: "sekali bayar",
       popular: false,
       features: [
@@ -56,7 +56,7 @@ const pricingData = {
     {
       name: "Sistem Web Custom",
       desc: "Sistem berbasis web sesuai kebutuhan bisnis — kos, kasir, inventori, dll.",
-      price: "Mulai Rp 2.500.000",
+      price: "Mulai Rp 3.000.000",
       note: "tergantung fitur",
       popular: false,
       features: [
@@ -74,7 +74,7 @@ const pricingData = {
     {
       name: "Landing Page",
       desc: "Cocok untuk promosi produk, jasa, atau event khusus.",
-      price: "Rp 650.000",
+      price: "Rp 700.000",
       note: "sudah include domain + hosting 1 tahun",
       popular: false,
       features: [
@@ -91,7 +91,7 @@ const pricingData = {
     {
       name: "Company Profile",
       desc: "Website resmi untuk bisnis atau instansi yang ingin tampil profesional.",
-      price: "Rp 1.100.000",
+      price: "Rp 1.200.000",
       note: "sudah include domain + hosting 1 tahun",
       popular: true,
       features: [
@@ -109,7 +109,7 @@ const pricingData = {
     {
       name: "Toko Online",
       desc: "Website jualan lengkap dengan katalog produk dan manajemen pesanan.",
-      price: "Rp 1.850.000",
+      price: "Rp 2.200.000",
       note: "sudah include domain + hosting 1 tahun",
       popular: false,
       features: [
@@ -127,7 +127,7 @@ const pricingData = {
     {
       name: "Sistem Web Custom",
       desc: "Sistem berbasis web sesuai kebutuhan bisnis — kos, kasir, inventori, dll.",
-      price: "Mulai Rp 2.850.000",
+      price: "Mulai Rp 3.500.000",
       note: "sudah include domain + hosting 1 tahun",
       popular: false,
       features: [
