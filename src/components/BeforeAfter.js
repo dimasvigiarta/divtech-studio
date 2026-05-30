@@ -6,19 +6,24 @@ export default function BeforeAfter() {
   return (
     <section className={styles.section}>
       <div className={styles.inner}>
-        <p className={styles.sectionLabel}>Transformasi Bisnis</p>
-        <h2 className={styles.sectionTitle}>
+        <p className={styles.sectionLabel} data-aos="fade-up">
+          Transformasi Bisnis
+        </p>
+        <h2
+          className={styles.sectionTitle}
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
           Dari bisnis yang tidak dikenal
           <br />
           menjadi <span>profesional online</span>
         </h2>
 
-        <div className={styles.cards}>
+        <div className={styles.journey} data-aos="fade-up" data-aos-delay="200">
           {/* BEFORE */}
-          <div className={styles.cardBefore}>
-            <p className={styles.cardLabel}>Sebelum</p>
-            <div className={styles.shopWrap}>
-              <div className={styles.shop}>
+          <div className={styles.card}>
+            <div className={styles.cardTop}>
+              <div className={styles.shopIcon}>
                 <div className={styles.shopRoof}></div>
                 <div className={styles.shopBody}>
                   <div
@@ -30,24 +35,29 @@ export default function BeforeAfter() {
                   <div className={styles.shopDoor}></div>
                 </div>
               </div>
+              <div className={styles.cardInfo}>
+                <div className={styles.cardBadge}>
+                  <div className={styles.dotRed}></div>
+                  Tidak ditemukan online
+                </div>
+                <p className={styles.cardDesc}>
+                  Bisnis bagus tapi tidak muncul di Google dan tidak dikenal
+                  calon pelanggan baru
+                </p>
+              </div>
             </div>
-            <div className={styles.beforeTag}>
-              <div className={styles.dotRed}></div>
-              Tidak ditemukan online
-            </div>
-            <p className={styles.beforeDesc}>
-              Bisnis bagus tapi tidak muncul di Google dan tidak dikenal calon
-              pelanggan baru
-            </p>
-            <div className={styles.noVisitors}>
+            <div className={styles.visitors}>
               <div className={styles.personGray}></div>
               <div className={styles.personGray}></div>
               <div className={styles.personGray}></div>
             </div>
           </div>
 
-          {/* MIDDLE */}
-          <div className={styles.middle}>
+          {/* ARROW + DIVTECH */}
+          <div className={styles.midWrap}>
+            <div className={styles.arrowLineH}>
+              <div className={styles.arrowFlowH}></div>
+            </div>
             <div className={styles.midCard}>
               <p className={styles.midLabel}>divtech</p>
               <div className={styles.midLaptop}>
@@ -104,17 +114,16 @@ export default function BeforeAfter() {
               </div>
               <p className={styles.midSub}>Studio</p>
             </div>
-            <div className={styles.arrowTrack}>
-              <div className={styles.arrowFlow}></div>
+            <div className={styles.arrowLineH}>
+              <div className={styles.arrowFlowH}></div>
             </div>
-            <div className={styles.arrowTip}></div>
+            <div className={styles.arrowTipH}></div>
           </div>
 
           {/* AFTER */}
-          <div className={styles.cardAfter}>
-            <p className={styles.cardLabelAfter}>Sesudah</p>
-            <div className={styles.shopWrap}>
-              <div className={styles.shopAfter}>
+          <div className={styles.cardHighlight}>
+            <div className={styles.cardTop}>
+              <div className={styles.shopIconAfter}>
                 <div className={styles.shopRoofBlue}></div>
                 <div className={styles.shopBodyBlue}>
                   <div
@@ -126,23 +135,27 @@ export default function BeforeAfter() {
                   <div className={styles.shopDoorBlue}></div>
                 </div>
               </div>
-            </div>
-            <div className={styles.afterTag}>
-              <div className={styles.dotGreen}></div>
-              Online & profesional
-            </div>
-            <div className={styles.googleRows}>
-              <div className={`${styles.gRow} ${styles.r1}`}>
-                <div className={`${styles.gDot} ${styles.gDotGreen}`}></div>
-                <span>#1 Google</span>
-              </div>
-              <div className={`${styles.gRow} ${styles.r2}`}>
-                <div className={`${styles.gDot} ${styles.gDotBlue}`}></div>
-                <span>Website live</span>
-              </div>
-              <div className={`${styles.gRow} ${styles.r3}`}>
-                <div className={`${styles.gDot} ${styles.gDotYellow}`}></div>
-                <span>Klien bertambah</span>
+              <div className={styles.cardInfo}>
+                <div className={styles.cardBadgeGreen}>
+                  <div className={styles.dotGreen}></div>
+                  Online & profesional
+                </div>
+                <div className={styles.googleRows}>
+                  <div className={`${styles.gRow} ${styles.r1}`}>
+                    <div className={`${styles.gDot} ${styles.gDotGreen}`}></div>
+                    <span>#1 Google</span>
+                  </div>
+                  <div className={`${styles.gRow} ${styles.r2}`}>
+                    <div className={`${styles.gDot} ${styles.gDotBlue}`}></div>
+                    <span>Website live</span>
+                  </div>
+                  <div className={`${styles.gRow} ${styles.r3}`}>
+                    <div
+                      className={`${styles.gDot} ${styles.gDotYellow}`}
+                    ></div>
+                    <span>Klien bertambah</span>
+                  </div>
+                </div>
               </div>
             </div>
             <div className={styles.visitors}>

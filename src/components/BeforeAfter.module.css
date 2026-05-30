@@ -22,87 +22,64 @@
   font-weight: 700;
   color: #0f172a;
   line-height: 1.25;
-  margin-bottom: 48px;
+  margin-bottom: 40px;
 }
 
 .sectionTitle span {
   color: #2563eb;
 }
 
-/* Cards layout */
-.cards {
-  display: grid;
-  grid-template-columns: 1fr 80px 1fr;
-  gap: 16px;
-  align-items: center;
+/* Mobile first - single column */
+.journey {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
   margin-bottom: 32px;
 }
 
-.cardBefore {
+.card {
   background: #ffffff;
   border: 1px solid #e2e8f0;
   border-radius: 12px;
-  padding: 24px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  height: 100%;
+  padding: 20px;
 }
 
-.cardAfter {
+.cardHighlight {
   background: #ffffff;
   border: 2px solid #2563eb;
   border-radius: 12px;
-  padding: 24px;
+  padding: 20px;
+}
+
+.cardTop {
   display: flex;
-  flex-direction: column;
-  gap: 10px;
-  height: 100%;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
 }
 
-.cardLabel {
-  font-size: 11px;
-  font-weight: 700;
-  color: #94a3b8;
-  text-transform: uppercase;
-  letter-spacing: 0.8px;
-}
-
-.cardLabelAfter {
-  font-size: 11px;
-  font-weight: 700;
-  color: #2563eb;
-  text-transform: uppercase;
-  letter-spacing: 0.8px;
-}
-
-/* Shop */
-.shopWrap {
-  display: flex;
-  justify-content: center;
-  margin: 8px 0;
-}
-
-.shop {
-  width: 64px;
-  height: 56px;
+.shopIcon {
+  width: 48px;
+  height: 42px;
   position: relative;
+  flex-shrink: 0;
   animation: sadShop 2s ease-in-out infinite;
 }
 
-.shopAfter {
-  width: 64px;
-  height: 56px;
+.shopIconAfter {
+  width: 48px;
+  height: 42px;
   position: relative;
+  flex-shrink: 0;
   animation: happyShop 1.5s ease-in-out infinite;
 }
 
 .shopRoof {
   width: 0;
   height: 0;
-  border-left: 32px solid transparent;
-  border-right: 32px solid transparent;
-  border-bottom: 18px solid #cbd5e1;
+  border-left: 24px solid transparent;
+  border-right: 24px solid transparent;
+  border-bottom: 14px solid #cbd5e1;
   position: absolute;
   top: 0;
 }
@@ -110,61 +87,61 @@
 .shopRoofBlue {
   width: 0;
   height: 0;
-  border-left: 32px solid transparent;
-  border-right: 32px solid transparent;
-  border-bottom: 18px solid #2563eb;
+  border-left: 24px solid transparent;
+  border-right: 24px solid transparent;
+  border-bottom: 14px solid #2563eb;
   position: absolute;
   top: 0;
 }
 
 .shopBody {
-  width: 64px;
-  height: 38px;
+  width: 48px;
+  height: 28px;
   background: #f1f5f9;
   border: 1px solid #cbd5e1;
-  border-radius: 3px;
+  border-radius: 2px;
   position: absolute;
   bottom: 0;
 }
 
 .shopBodyBlue {
-  width: 64px;
-  height: 38px;
+  width: 48px;
+  height: 28px;
   background: #eff6ff;
   border: 1px solid #bfdbfe;
-  border-radius: 3px;
+  border-radius: 2px;
   position: absolute;
   bottom: 0;
 }
 
 .shopWindow {
-  width: 12px;
-  height: 12px;
+  width: 9px;
+  height: 9px;
   background: #cbd5e1;
-  border-radius: 2px;
+  border-radius: 1px;
   position: absolute;
-  top: 8px;
+  top: 6px;
 }
 
 .shopWindowBlue {
-  width: 12px;
-  height: 12px;
+  width: 9px;
+  height: 9px;
   background: #bfdbfe;
-  border-radius: 2px;
+  border-radius: 1px;
   position: absolute;
-  top: 8px;
+  top: 6px;
 }
 
 .shopWindowL {
-  left: 8px;
+  left: 6px;
 }
 .shopWindowR {
-  right: 8px;
+  right: 6px;
 }
 
 .shopDoor {
-  width: 14px;
-  height: 18px;
+  width: 10px;
+  height: 14px;
   background: #94a3b8;
   border-radius: 2px 2px 0 0;
   position: absolute;
@@ -174,8 +151,8 @@
 }
 
 .shopDoorBlue {
-  width: 14px;
-  height: 18px;
+  width: 10px;
+  height: 14px;
   background: #2563eb;
   border-radius: 2px 2px 0 0;
   position: absolute;
@@ -184,31 +161,36 @@
   transform: translateX(-50%);
 }
 
-/* Tags */
-.beforeTag {
+.cardInfo {
+  flex: 1;
+}
+
+.cardBadge {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
+  gap: 5px;
   background: #fef2f2;
   border: 1px solid #fca5a5;
   border-radius: 20px;
-  padding: 4px 10px;
+  padding: 3px 10px;
   font-size: 11px;
   font-weight: 600;
   color: #ef4444;
+  margin-bottom: 6px;
 }
 
-.afterTag {
+.cardBadgeGreen {
   display: inline-flex;
   align-items: center;
-  gap: 6px;
+  gap: 5px;
   background: #f0fdf4;
   border: 1px solid #bbf7d0;
   border-radius: 20px;
-  padding: 4px 10px;
+  padding: 3px 10px;
   font-size: 11px;
   font-weight: 600;
   color: #16a34a;
+  margin-bottom: 6px;
 }
 
 .dotRed {
@@ -227,37 +209,29 @@
   flex-shrink: 0;
 }
 
-.beforeDesc {
+.cardDesc {
   font-size: 12px;
   color: #94a3b8;
-  line-height: 1.6;
-}
-
-/* Visitors */
-.noVisitors {
-  display: flex;
-  gap: 6px;
-  margin-top: 4px;
-}
-
-.personGray {
-  width: 28px;
-  height: 28px;
-  border-radius: 50%;
-  background: #f1f5f9;
-  border: 1px solid #e2e8f0;
-  opacity: 0.4;
+  line-height: 1.5;
 }
 
 .visitors {
   display: flex;
-  gap: 6px;
-  margin-top: 4px;
+  gap: 5px;
+}
+
+.personGray {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #f1f5f9;
+  border: 1px solid #e2e8f0;
+  opacity: 0.3;
 }
 
 .personBlue {
-  width: 28px;
-  height: 28px;
+  width: 24px;
+  height: 24px;
   border-radius: 50%;
   background: #eff6ff;
   border: 1px solid #bfdbfe;
@@ -271,7 +245,6 @@
   animation-delay: 0.6s;
 }
 
-/* Google rows */
 .googleRows {
   display: flex;
   flex-direction: column;
@@ -318,96 +291,96 @@
   background: #f59e0b;
 }
 
-/* Middle */
-.middle {
+/* Divtech middle card */
+.midWrap {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  gap: 8px;
+  gap: 12px;
+  padding: 0 8px;
 }
 
-.midCard {
-  background: #2563eb;
-  border-radius: 12px;
-  padding: 14px 10px;
-  text-align: center;
-  width: 72px;
-  animation: midPulse 2s ease-in-out infinite;
-}
-
-.midLabel {
-  font-size: 10px;
-  font-weight: 700;
-  color: rgba(255, 255, 255, 0.8);
-  margin-bottom: 6px;
-}
-
-.midLaptop {
-  width: 40px;
-  height: 30px;
-  margin: 0 auto 4px;
-}
-
-.midSub {
-  font-size: 9px;
-  color: rgba(255, 255, 255, 0.9);
-}
-
-.arrowTrack {
-  width: 3px;
-  height: 40px;
+.arrowLineH {
+  flex: 1;
+  height: 2px;
   background: #e2e8f0;
   border-radius: 2px;
   position: relative;
   overflow: hidden;
 }
 
-.arrowFlow {
+.arrowFlowH {
   position: absolute;
-  top: -100%;
-  left: 0;
-  width: 100%;
-  height: 50%;
-  background: linear-gradient(to bottom, transparent, #2563eb, transparent);
-  animation: flowDown 1.5s ease-in-out infinite;
+  top: 0;
+  left: -100%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(to right, transparent, #2563eb, transparent);
+  animation: flowRight 1.5s ease-in-out infinite;
 }
 
-.arrowTip {
+.arrowTipH {
   width: 0;
   height: 0;
-  border-left: 5px solid transparent;
-  border-right: 5px solid transparent;
-  border-top: 8px solid #2563eb;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 8px solid #2563eb;
+  flex-shrink: 0;
+}
+
+.midCard {
+  background: #2563eb;
+  border-radius: 10px;
+  padding: 12px 10px;
+  text-align: center;
+  flex-shrink: 0;
+  animation: midPulse 2s ease-in-out infinite;
+}
+
+.midLabel {
+  font-size: 9px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 4px;
+}
+
+.midLaptop {
+  width: 36px;
+  height: 27px;
+  margin: 0 auto 3px;
+}
+
+.midSub {
+  font-size: 8px;
+  color: rgba(255, 255, 255, 0.9);
 }
 
 /* Steps */
 .steps {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 12px;
-  margin-top: 32px;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
 }
 
 .step {
   background: #ffffff;
   border: 1px solid #e2e8f0;
   border-radius: 12px;
-  padding: 16px;
+  padding: 14px;
   display: flex;
   align-items: flex-start;
-  gap: 12px;
+  gap: 10px;
 }
 
 .stepNum {
-  width: 28px;
-  height: 28px;
+  width: 26px;
+  height: 26px;
   background: #2563eb;
   color: #ffffff;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 13px;
+  font-size: 12px;
   font-weight: 700;
   flex-shrink: 0;
 }
@@ -421,8 +394,16 @@
 }
 
 .step span {
-  font-size: 12px;
+  font-size: 11px;
   color: #64748b;
+}
+
+/* Desktop */
+@media (min-width: 768px) {
+  .steps {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+  }
 }
 
 /* Animations */
@@ -463,12 +444,12 @@
   }
 }
 
-@keyframes flowDown {
+@keyframes flowRight {
   0% {
-    top: -100%;
+    left: -100%;
   }
   100% {
-    top: 100%;
+    left: 100%;
   }
 }
 
@@ -479,84 +460,5 @@
   }
   50% {
     transform: scale(1.05);
-  }
-}
-
-/* Tablet */
-@media (max-width: 900px) {
-  .steps {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-/* Mobile */
-@media (max-width: 640px) {
-  .cards {
-    grid-template-columns: 1fr !important;
-    gap: 12px;
-  }
-
-  .middle {
-    flex-direction: row !important;
-    justify-content: center;
-    align-items: center;
-    padding: 4px 0;
-    gap: 8px;
-  }
-
-  .midCard {
-    width: 60px;
-    padding: 10px 8px;
-  }
-
-  .arrowTrack {
-    width: 48px !important;
-    height: 3px !important;
-  }
-
-  .arrowFlow {
-    top: 0 !important;
-    left: -100% !important;
-    width: 50% !important;
-    height: 100% !important;
-    background: linear-gradient(
-      to right,
-      transparent,
-      #2563eb,
-      transparent
-    ) !important;
-    animation: flowRight 1.5s ease-in-out infinite !important;
-  }
-
-  .arrowTip {
-    width: 0 !important;
-    height: 0 !important;
-    border-top: 5px solid transparent !important;
-    border-bottom: 5px solid transparent !important;
-    border-left: 8px solid #2563eb !important;
-    border-right: none !important;
-  }
-
-  .steps {
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-  }
-}
-
-@keyframes flowRight {
-  0% {
-    left: -100%;
-  }
-  100% {
-    left: 100%;
-  }
-}
-
-@keyframes flowRight {
-  0% {
-    left: -100%;
-  }
-  100% {
-    left: 100%;
   }
 }
