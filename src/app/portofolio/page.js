@@ -72,6 +72,16 @@ const projects = [
     textColor: "#c68c5f",
     image: "/katering.png",
   },
+  {
+    category: "Sistem Web",
+    title: "Aplikasi Kasir (POS) dan Manajemen Stok Berbasis Web",
+    isPersonal: true,
+    desc: "Sistem kasir digital untuk efisiensi transaksi penjualan yang dilengkapi dengan pencatatan stok otomatis (inventory tracking), laporan keuangan real-time, serta cetak struk belanja.",
+    tech: ["Laravel", "MySQL", "Tailwind CSS"],
+    color: "#F3F4F6",
+    textColor: "#165cff",
+    image: "/kasir.png",
+  },
 ];
 
 export default function PortofolioPage() {
