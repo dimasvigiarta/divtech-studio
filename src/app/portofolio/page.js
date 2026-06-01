@@ -82,6 +82,16 @@ const projects = [
     textColor: "#165cff",
     image: "/kasir.png",
   },
+  {
+    category: "Sistem Web",
+    title: "Sistem Informasi Manajemen Klinik & Portal Booking Pasien Mandiri",
+    isPersonal: true,
+    desc: "Sistem manajemen klinik terintegrasi yang dilengkapi fitur Booking Dua Arah: pasien dapat melakukan reservasi jadwal dokter secara mandiri via portal web, dan admin klinik dapat mengelola antrean, rekam medis (Poli), stok obat, hingga transaksi pembayaran secara real-time.",
+    tech: ["Laravel", "MySQL", "Tailwind CSS"],
+    color: "#15348b",
+    textColor: "#15348b",
+    image: "/klinik.png",
+  },
 ];
 
 export default function PortofolioPage() {
