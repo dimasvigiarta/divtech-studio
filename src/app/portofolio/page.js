@@ -92,6 +92,16 @@ const projects = [
     textColor: "#15348b",
     image: "/klinik.png",
   },
+  {
+    category: "Sistem Web",
+    title: "Sistem Informasi Manajemen Cafe & Pemesanan Mandiri via QR Code",
+    isPersonal: true,
+    desc: "Sistem manajemen cafe terintegrasi penuh yang mendigitalkan seluruh alur pemesanan. Pelanggan dapat melakukan pemesanan via scan QR code meja, yang terhubung langsung dengan kasir dan payment gateway. Pesanan akan diteruskan secara otomatis ke layar dapur secara real-time. Dilengkapi juga dengan manajemen menu, akses user (kasir & dapur), serta laporan omzet harian.",
+    tech: ["Laravel", "MySQL", "Tailwind CSS", "Payment Gateway"],
+    color: "#f59e0b",
+    textColor: "#f59e0b",
+    image: "/cafe.png",
+  },
 ];
 
 export default function PortofolioPage() {
