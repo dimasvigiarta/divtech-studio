@@ -51,6 +51,7 @@ const projects = [
     color: "#FFF7ED",
     textColor: "#862600",
     image: "/bakery.png",
+    url: "https://bakery.dimasvigiarta.online", // Properti URL baru
   },
   {
     category: "Web Aplikasi",
