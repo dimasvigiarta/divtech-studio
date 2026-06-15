@@ -51,7 +51,6 @@ const projects = [
     color: "#FFF7ED",
     textColor: "#862600",
     image: "/bakery.png",
-    url: "https://bakery.dimasvigiarta.online", // Properti URL baru
   },
   {
     category: "Web Aplikasi",
@@ -102,6 +101,16 @@ const projects = [
     color: "#f59e0b",
     textColor: "#f59e0b",
     image: "/cafe.png",
+  },
+  {
+    category: "Web Aplikasi",
+    title: "Sistem Informasi Manajemen Kos",
+    isPersonal: false,
+    desc: "Aplikasi manajemen kos berbasis web dengan fitur pencatatan kamar, penghuni, dan pembayaran sewa. Dilengkapi panel admin untuk monitoring hunian, laporan keuangan, serta notifikasi pembayaran otomatis.",
+    tech: ["Laravel", "MySQL", "Tailwind CSS"],
+    color: "#F0FDF4",
+    textColor: "#166534",
+    image: "/kostku.png",
   },
 ];
 
