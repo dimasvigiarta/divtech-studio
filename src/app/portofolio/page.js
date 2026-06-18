@@ -129,7 +129,7 @@ const projects = [
     desc: "Aplikasi pencatatan keuangan berbasis web dengan antarmuka khusus mobile (Mobile-First UI). Dilengkapi fitur catat transaksi keluar masuk, pengalihan antar saldo, riwayat lengkap, monitoring grafik laporan bulanan, serta manajemen budget.",
     tech: ["Laravel", "MySQL", "Tailwind CSS"],
     color: "#FFF7ED",
-    textColor: "#C2410C",
+    textColor: "#003a04",
     image: "/dompetku.png",
   },
 ];
