@@ -25,10 +25,10 @@ const projects = [
   },
   {
     category: "Web Aplikasi",
-    title: "Sistem Manajemen & Reservasi Bebek Travel",
-    desc: "Website katalog tour interaktif dilengkapi panel admin untuk manajemen kuota paket wisata, pelacakan manifest penumpang, integrasi pembayaran otomatis, serta sistem pemesanan 'satset' tanpa ribet.",
-    image: "/travel.png",
-    textColor: "#00A8B5",
+    title: "Sistem Informasi Manajemen dan Persewaan Kebaya",
+    desc: "Website katalog dan persewaan kebaya interaktif, dilengkapi panel admin untuk manajemen stok kebaya, pelacakan pesanan, laporan keuangan, serta fitur blokir tanggal otomatis untuk mengatur jadwal sewa.",
+    image: "/kebaya.png",
+    textColor: "#660049",
   },
 ];
 
