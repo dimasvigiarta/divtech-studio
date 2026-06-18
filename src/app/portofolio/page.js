@@ -112,6 +112,16 @@ const projects = [
     textColor: "#166534",
     image: "/kostku.png",
   },
+  {
+    category: "Web Aplikasi",
+    title: "Sistem Informasi Manajemen dan Pemesanan Travel",
+    isPersonal: false,
+    desc: "Aplikasi manajemen agen travel berbasis web dengan fitur pengelolaan paket wisata, ketersediaan kursi, dan reservasi online. Dilengkapi panel admin untuk monitoring jadwal armada, laporan keuangan, serta notifikasi keberangkatan otomatis.",
+    tech: ["Laravel", "MySQL", "Tailwind CSS"],
+    color: "#EFF6FF",
+    textColor: "#1E40AF",
+    image: "/travel.png",
+  },
 ];
 
 export default function PortofolioPage() {
