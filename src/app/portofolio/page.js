@@ -119,7 +119,7 @@ const projects = [
     desc: "Aplikasi manajemen agen travel berbasis web dengan fitur pengelolaan paket wisata, ketersediaan kursi, dan reservasi online. Dilengkapi panel admin untuk monitoring jadwal armada, laporan keuangan, serta notifikasi keberangkatan otomatis.",
     tech: ["Laravel", "MySQL", "Tailwind CSS"],
     color: "#EFF6FF",
-    textColor: "#1E40AF",
+    textColor: "#1ea8af",
     image: "/travel.png",
   },
 ];
