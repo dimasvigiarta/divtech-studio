@@ -27,7 +27,7 @@ const projects = [
     category: "Web Aplikasi",
     title: "Sistem Manajemen & Reservasi Bebek Travel",
     desc: "Website katalog tour interaktif dilengkapi panel admin untuk manajemen kuota paket wisata, pelacakan manifest penumpang, integrasi pembayaran otomatis, serta sistem pemesanan 'satset' tanpa ribet.",
-    image: "/bebek-travel.png",
+    image: "/travel.png",
     textColor: "#00A8B5",
   },
 ];
