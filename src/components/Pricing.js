@@ -103,7 +103,7 @@ const pricingData = {
         "Database & backend Laravel",
         "Login & manajemen user",
         "Domain .com 1 tahun",
-        "Hosting VPS 1 tahun",
+        "Hosting 1 tahun",
         "Termasuk toko online",
         "Dokumentasi penggunaan",
         "Selesai 14–30 hari",
