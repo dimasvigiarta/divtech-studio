@@ -3,6 +3,19 @@ import styles from "./Portfolio.module.css";
 
 const projects = [
   {
+    category: "Web Aplikasi",
+    title: "Lanesra Attire",
+    isPersonal: false,
+    desc: "Website katalog ketersediaan kebaya untuk Lanesra Attire — menampilkan koleksi kebaya, informasi ketersediaan, dan kontak pemesanan langsung.",
+    tech: ["Laravel", "MySQL", "Tailwind CSS"],
+    color: "#FDF4FF",
+    textColor: "#9333EA",
+    image: "/lanesraattire.png",
+    url: "https://lanesraattire.my.id/",
+    tiktok: "https://www.tiktok.com/@lanesra_attire",
+    instagram: "https://www.instagram.com/lanesra_attire",
+  },
+  {
     category: "Sistem Web",
     title: "Sistem Manajemen Kos",
     desc: "Aplikasi web untuk pemilik kos — kelola kamar, penghuni, pembayaran, dan laporan bulanan secara digital.",

@@ -13,6 +13,19 @@ export const metadata = {
 
 const projects = [
   {
+    category: "Web Aplikasi",
+    title: "Lanesra Attire",
+    isPersonal: false,
+    desc: "Website katalog ketersediaan kebaya untuk Lanesra Attire — menampilkan koleksi kebaya, informasi ketersediaan, dan kontak pemesanan langsung.",
+    tech: ["Laravel", "MySQL", "Tailwind CSS"],
+    color: "#FDF4FF",
+    textColor: "#9333EA",
+    image: "/lanesraattire.png",
+    url: "https://lanesraattire.my.id/",
+    tiktok: "https://www.tiktok.com/@lanesra_attire",
+    instagram: "https://www.instagram.com/lanesra_attire",
+  },
+  {
     category: "Sistem Web",
     title: "Sistem Manajemen Kos",
     isPersonal: true,
@@ -312,19 +325,121 @@ export default function PortofolioPage() {
                       </span>
                     ))}
                   </div>
-                  <a
-                    href="/#kontak"
+                  <div
                     style={{
-                      display: "inline-flex",
+                      display: "flex",
                       alignItems: "center",
-                      gap: "4px",
-                      fontSize: "13px",
-                      fontWeight: "600",
-                      color: "#2563EB",
+                      justifyContent: "space-between",
+                      marginTop: "4px",
                     }}
                   >
-                    Diskusi proyek serupa <ArrowRight size={13} />
-                  </a>
+                    {project.url ? (
+                      <a
+                        href={project.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{
+                          display: "inline-flex",
+                          alignItems: "center",
+                          gap: "4px",
+                          fontSize: "13px",
+                          fontWeight: "600",
+                          color: "#2563EB",
+                        }}
+                      >
+                        Lihat website <ArrowRight size={13} />
+                      </a>
+                    ) : (
+                      <a
+                        href="/#kontak"
+                        style={{
+                          display: "inline-flex",
+                          alignItems: "center",
+                          gap: "4px",
+                          fontSize: "13px",
+                          fontWeight: "600",
+                          color: "#2563EB",
+                        }}
+                      >
+                        Diskusi proyek serupa <ArrowRight size={13} />
+                      </a>
+                    )}
+                    {(project.instagram || project.tiktok) && (
+                      <div style={{ display: "flex", gap: "8px" }}>
+                        {project.instagram && (
+                          <a
+                            href={project.instagram}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style={{
+                              width: "28px",
+                              height: "28px",
+                              background: "#F1F5F9",
+                              borderRadius: "6px",
+                              display: "flex",
+                              alignItems: "center",
+                              justifyContent: "center",
+                              color: "#64748B",
+                            }}
+                          >
+                            <svg
+                              width="14"
+                              height="14"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              stroke="currentColor"
+                              strokeWidth="2"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                            >
+                              <rect
+                                x="2"
+                                y="2"
+                                width="20"
+                                height="20"
+                                rx="5"
+                                ry="5"
+                              />
+                              <circle cx="12" cy="12" r="4" />
+                              <circle
+                                cx="17.5"
+                                cy="6.5"
+                                r="1"
+                                fill="currentColor"
+                                stroke="none"
+                              />
+                            </svg>
+                          </a>
+                        )}
+                        {project.tiktok && (
+                          <a
+                            href={project.tiktok}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            style={{
+                              width: "28px",
+                              height: "28px",
+                              background: "#F1F5F9",
+                              borderRadius: "6px",
+                              display: "flex",
+                              alignItems: "center",
+                              justifyContent: "center",
+                              color: "#64748B",
+                            }}
+                          >
+                            <svg
+                              width="14"
+                              height="14"
+                              viewBox="0 0 24 24"
+                              fill="currentColor"
+                            >
+                              <path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1V9.01a6.33 6.33 0 00-.79-.05 6.34 6.34 0 00-6.34 6.34 6.34 6.34 0 006.34 6.34 6.34 6.34 0 006.33-6.34V8.69a8.18 8.18 0 004.78 1.52V6.75a4.85 4.85 0 01-1.01-.06z" />
+                            </svg>
+                          </a>
+                        )}
+                      </div>
+                    )}
+                  </div>
                 </div>
               </div>
             ))}
