@@ -26,9 +26,6 @@ export default function Footer() {
                 <a href="#layanan">Company Profile</a>
               </li>
               <li>
-                <a href="#layanan">Toko Online</a>
-              </li>
-              <li>
                 <a href="#layanan">Sistem Web Custom</a>
               </li>
             </ul>

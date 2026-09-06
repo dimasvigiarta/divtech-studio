@@ -95,7 +95,7 @@ const articles = {
       },
       {
         type: "p",
-        text: "Landing page mulai dari Rp 300.000, company profile mulai Rp 750.000, toko online mulai Rp 1.500.000, dan sistem web custom mulai Rp 2.500.000. Semua harga sudah final tanpa biaya tersembunyi.",
+        text: "Landing page mulai dari Rp 300.000, company profile mulai Rp 750.000, dan sistem web custom mulai Rp 2.500.000. Semua harga sudah final tanpa biaya tersembunyi.",
       },
     ],
   },
@@ -143,15 +143,15 @@ const articles = {
       },
     ],
   },
-  "perbedaan-landing-page-company-profile-toko-online": {
-    title: "Perbedaan Landing Page, Company Profile, dan Toko Online",
+  "perbedaan-landing-page-company-profile": {
+    title: "Perbedaan Landing Page Company Profile",
     category: "Tutorial",
     date: "5 Mei 2025",
     readTime: "6 menit",
     content: [
       {
         type: "p",
-        text: "Saat ingin membuat website, banyak pelaku bisnis bingung harus pilih jenis apa. Artikel ini menjelaskan perbedaan landing page, company profile, dan toko online secara lengkap.",
+        text: "Saat ingin membuat website, banyak pelaku bisnis bingung harus pilih jenis apa. Artikel ini menjelaskan perbedaan landing page dan company profile secara lengkap.",
       },
       {
         type: "h2",
@@ -171,19 +171,11 @@ const articles = {
       },
       {
         type: "h2",
-        text: "Toko Online",
-      },
-      {
-        type: "p",
-        text: "Toko online adalah website yang memungkinkan pengunjung membeli produk secara langsung. Dilengkapi dengan katalog produk, keranjang belanja, dan sistem pembayaran. Cocok untuk bisnis yang ingin berjualan secara digital.",
-      },
-      {
-        type: "h2",
         text: "Mana yang Tepat untuk Bisnis Anda?",
       },
       {
         type: "p",
-        text: "Pilih landing page jika butuh promosi cepat dengan budget terbatas. Pilih company profile jika ingin membangun kredibilitas bisnis. Pilih toko online jika ingin berjualan langsung lewat website.",
+        text: "Pilih landing page jika butuh promosi cepat dengan budget terbatas. Pilih company profile jika ingin membangun kredibilitas bisnis.",
       },
     ],
   },

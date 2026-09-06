@@ -53,12 +53,6 @@ export default function Location() {
                 <div className={styles.checkIcon}>
                   <Check size={10} />
                 </div>
-                Toko online lokal
-              </li>
-              <li>
-                <div className={styles.checkIcon}>
-                  <Check size={10} />
-                </div>
                 Konsultasi tatap muka
               </li>
             </ul>

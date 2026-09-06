@@ -61,23 +61,6 @@ export default function Services() {
             </div>
           </div>
 
-          <div className={styles.card} data-aos="fade-up" data-aos-delay="500">
-            <div className={styles.iconBox}>
-              <ShoppingCart size={20} />
-            </div>
-            <h3>Toko Online</h3>
-            <p>
-              Website jualan lengkap dengan katalog produk, keranjang belanja,
-              dan manajemen pesanan. Tingkatkan penjualan bisnis Anda secara
-              online.
-            </p>
-            <div className={styles.tags}>
-              <span className={styles.tag}>7–14 hari</span>
-              <span className={styles.tag}>WooCommerce</span>
-              <span className={styles.tag}>Laravel</span>
-            </div>
-          </div>
-
           <div className={styles.card} data-aos="fade-up" data-aos-delay="800">
             <div className={styles.iconBox}>
               <Server size={20} />

@@ -66,14 +66,12 @@ export default function LaptopMockup() {
               </div>
             </div>
             <div className={styles.services}>
-              {["Landing Page", "Company Profile", "Toko Online"].map(
-                (s, i) => (
-                  <div key={i} className={styles.serviceCard}>
-                    <div className={styles.serviceIcon}></div>
-                    <div className={styles.serviceTitle}>{s}</div>
-                  </div>
-                ),
-              )}
+              {["Landing Page", "Company Profile"].map((s, i) => (
+                <div key={i} className={styles.serviceCard}>
+                  <div className={styles.serviceIcon}></div>
+                  <div className={styles.serviceTitle}>{s}</div>
+                </div>
+              ))}
             </div>
           </div>
         </div>

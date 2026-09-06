@@ -5,7 +5,7 @@ import { ArrowRight, Globe } from "lucide-react";
 export const metadata = {
   title: "Portofolio - divtech Studio",
   description:
-    "Kumpulan proyek website dan sistem web yang telah dikerjakan divtech Studio. Landing page, company profile, toko online, dan sistem web custom.",
+    "Kumpulan proyek website dan sistem web yang telah dikerjakan divtech Studio. Landing page, company profile  dan sistem web custom.",
   alternates: {
     canonical: "https://divtech.studio/portofolio",
   },

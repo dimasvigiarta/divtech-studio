@@ -463,7 +463,6 @@ export default function KontakPage() {
                   <option value="">Pilih layanan...</option>
                   <option value="Landing Page">Landing Page</option>
                   <option value="Company Profile">Company Profile</option>
-                  <option value="Toko Online">Toko Online</option>
                   <option value="Sistem Web Custom">Sistem Web Custom</option>
                   <option value="Lainnya">Lainnya</option>
                 </select>

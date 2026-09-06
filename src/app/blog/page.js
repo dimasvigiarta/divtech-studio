@@ -23,7 +23,7 @@ const articles = [
   {
     category: "Tips",
     title: "Berapa Biaya Buat Website di Blora? Ini Rinciannya",
-    desc: "Panduan lengkap estimasi biaya pembuatan website untuk UMKM, toko online, dan company profile di Blora dan sekitarnya.",
+    desc: "Panduan lengkap estimasi biaya pembuatan website untuk UMKM, dan company profile di Blora dan sekitarnya.",
     date: "15 Mei 2025",
     readTime: "4 menit",
     slug: "biaya-buat-website-blora",
@@ -38,11 +38,11 @@ const articles = [
   },
   {
     category: "Tutorial",
-    title: "Perbedaan Landing Page, Company Profile, dan Toko Online",
+    title: "Perbedaan Landing Page dan Company Profile",
     desc: "Bingung pilih jenis website yang tepat untuk bisnis Anda? Artikel ini menjelaskan perbedaan dan kapan harus menggunakannya.",
     date: "5 Mei 2025",
     readTime: "6 menit",
-    slug: "perbedaan-landing-page-company-profile-toko-online",
+    slug: "perbedaan-landing-page-company-profile",
   },
   {
     category: "SEO",

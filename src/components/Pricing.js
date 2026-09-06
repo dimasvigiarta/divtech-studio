@@ -39,7 +39,7 @@ const pricingData = {
     },
     {
       name: "Sistem Web Custom",
-      desc: "Sistem berbasis web sesuai kebutuhan — kasir, inventori, kos, presensi, toko online, dan lainnya.",
+      desc: "Sistem berbasis web sesuai kebutuhan — kasir, inventori, kos, presensi dan lainnya.",
       price: "Mulai Rp 2.000.000",
       note: "tergantung fitur",
       popular: false,
@@ -49,7 +49,6 @@ const pricingData = {
         "Database & backend Laravel",
         "Login & manajemen user",
         "Laporan & export data",
-        "Termasuk toko online",
         "Dokumentasi penggunaan",
         "Selesai 14–30 hari",
       ],
@@ -93,7 +92,7 @@ const pricingData = {
     },
     {
       name: "Sistem Web Custom",
-      desc: "Sistem berbasis web sesuai kebutuhan — kasir, inventori, kos, presensi, toko online, dan lainnya.",
+      desc: "Sistem berbasis web sesuai kebutuhan — kasir, inventori, kos, presensi dan lainnya.",
       price: "Mulai Rp 2.500.000",
       note: "sudah include domain + hosting 1 tahun",
       popular: false,
@@ -104,7 +103,6 @@ const pricingData = {
         "Login & manajemen user",
         "Domain .com 1 tahun",
         "Hosting 1 tahun",
-        "Termasuk toko online",
         "Dokumentasi penggunaan",
         "Selesai 14–30 hari",
       ],
