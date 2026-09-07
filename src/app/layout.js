@@ -13,7 +13,7 @@ const inter = Inter({
 export const metadata = {
   title: "divtech Studio - Jasa Pembuatan Website Profesional Blora & Semarang",
   description:
-    "Jasa pembuatan website profesional untuk UMKM, bisnis, dan instansi di Blora dan Semarang. Landing page, company profile, toko online, dan sistem web custom berbasis Laravel & Next.js.",
+    "Jasa pembuatan website profesional untuk UMKM, bisnis, dan instansi di Blora dan Semarang. Landing page, company profile, dan sistem web custom berbasis Laravel & Next.js.",
   keywords:
     "jasa pembuatan website blora, jasa pembuatan website semarang, jasa website profesional, pembuatan website murah blora, web developer semarang, sistem web custom laravel",
   authors: [{ name: "divtech Studio" }],

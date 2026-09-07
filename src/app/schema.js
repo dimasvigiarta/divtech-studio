@@ -36,7 +36,6 @@ export const localBusinessSchema = {
     "Pembuatan Website",
     "Landing Page",
     "Company Profile",
-    "Toko Online",
     "Sistem Web Custom",
   ],
   priceRange: "$$",

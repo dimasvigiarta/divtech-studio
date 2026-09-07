@@ -29,13 +29,6 @@ const projects = [
     image: "/toyota.png",
     textColor: "#DC2626",
   },
-  {
-    category: "Web Aplikasi",
-    title: "Sistem Informasi Manajemen dan Persewaan Kebaya",
-    desc: "Website katalog dan persewaan kebaya interaktif, dilengkapi panel admin untuk manajemen stok kebaya, pelacakan pesanan, laporan keuangan, serta fitur blokir tanggal otomatis untuk mengatur jadwal sewa.",
-    image: "/kebaya.png",
-    textColor: "#660049",
-  },
 ];
 
 export default function Portfolio() {
