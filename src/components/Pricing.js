@@ -9,7 +9,7 @@ const pricingData = {
     {
       name: "Landing Page",
       desc: "Cocok untuk promosi produk, jasa, atau event khusus.",
-      price: "Rp 350.000",
+      price: "Rp 300.000",
       note: "sekali bayar",
       popular: false,
       features: [
@@ -26,7 +26,7 @@ const pricingData = {
       desc: "Website resmi untuk bisnis atau instansi yang ingin tampil profesional.",
       price: "Rp 800.000",
       note: "sekali bayar",
-      popular: true,
+      popular: false,
       features: [
         "Hingga 5 halaman",
         "Desain custom & responsif",
@@ -42,7 +42,7 @@ const pricingData = {
       desc: "Sistem berbasis web sesuai kebutuhan — kasir, inventori, kos, presensi dan lainnya.",
       price: "Mulai Rp 2.000.000",
       note: "tergantung fitur",
-      popular: false,
+      popular: true,
       features: [
         "Analisis kebutuhan sistem",
         "Desain UI/UX custom",
@@ -58,7 +58,7 @@ const pricingData = {
     {
       name: "Landing Page",
       desc: "Cocok untuk promosi produk, jasa, atau event khusus.",
-      price: "Rp 700.000",
+      price: "Rp 500.000",
       note: "sudah include domain + hosting 1 tahun",
       popular: false,
       features: [
@@ -77,7 +77,7 @@ const pricingData = {
       desc: "Website resmi untuk bisnis atau instansi yang ingin tampil profesional.",
       price: "Rp 1.200.000",
       note: "sudah include domain + hosting 1 tahun",
-      popular: true,
+      popular: false,
       features: [
         "Hingga 5 halaman",
         "Desain custom & responsif",
@@ -95,7 +95,7 @@ const pricingData = {
       desc: "Sistem berbasis web sesuai kebutuhan — kasir, inventori, kos, presensi dan lainnya.",
       price: "Mulai Rp 2.500.000",
       note: "sudah include domain + hosting 1 tahun",
-      popular: false,
+      popular: true,
       features: [
         "Analisis kebutuhan sistem",
         "Desain UI/UX custom",
