@@ -58,7 +58,7 @@ const pricingData = {
     {
       name: "Landing Page",
       desc: "Cocok untuk promosi produk, jasa, atau event khusus.",
-      price: "Rp 500.000",
+      price: "Rp 600.000",
       note: "sudah include domain + hosting 1 tahun",
       popular: false,
       features: [
